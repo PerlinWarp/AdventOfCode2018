@@ -14,6 +14,6 @@ while True:
 		freq += int(line)
 		if(freq in arr):
 			print(freq,"has already been found!")
+			file.close()
 			quit()
 		arr.add(freq)
-	file.close()
